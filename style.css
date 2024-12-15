@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body .top-section-wrapper {
+  background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/c_crop,w_1880,h_1040/v1734286550/background-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .top-section-wrapper nav {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .top-section-wrapper nav img {
+  max-width: 18.75rem;
+  height: 1.83rem;
+}
+
+body .top-section-wrapper nav .navbar-links-wrapper ul li a {
+  color: #ffffff !important;
+}
+
+body
+  .top-section-wrapper
+  .hero-section-wrapper
+  .hero-section-wrapper__copy
+  .hero-section-wrapper__copy--bottom-text {
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  font-family: SpoqaHanSans;
+  margin-top: 5rem;
+  margin-bottom: 13rem;
+}
+
+body
+  .top-section-wrapper
+  .hero-section-wrapper
+  .hero-section-wrapper__copy
+  .hero-section-wrapper__copy--bottom-text
+  h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 47.36px;
+}
+
+.hero-section-wrapper__copy--bottom-text p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.85rem;
+}
+
+/* Convenience section style */
+body .convenience-section-wrapper {
+    background: #242424;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+body .convenience-section-wrapper header{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    padding-left: 5rem;
+}
+
+body .convenience-section-wrapper header h4 {
+    letter-spacing: -0.014em;
+}
+
+body .convenience-section-wrapper header h3 {
+    letter-spacing: -0.01em;
+}
+
+body .convenience-section-wrapper header h3 span{
+    color: #F58220;
+}
+
+body .convenience-section-wrapper .mira-services{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    max-width: 70rem;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+
+body .convenience-section-wrapper .mira-services .mira-services__container {
+    border-bottom: 1.1px solid #7D7D7D;
+    margin-bottom: 1.5rem;
+    height: 30rem;
+}
+
+body .convenience-section-wrapper .mira-services .mira-services__container:nth-child(1) .line {
+    position: absolute;
+    bottom: 1.4rem;
+    max-width: 12rem;
+}
+
+body .convenience-section-wrapper .mira-services {
+    margin-top: 2rem;
+  }
+
+  body .convenience-section-wrapper .mira-services .mira-services__container 
+  .mira-services__container--image-wrapper{
+    width: 100%;
+  }
+
+  body .convenience-section-wrapper .mira-services .mira-services__container 
+  .mira-services__container--copy {
+    margin-top: 1rem;
+    max-width: 31.125rem;
+  }
+
+
+  body .convenience-section-wrapper .mira-services .mira-services__container:nth-child(1) {
+    margin-top: 5.5rem;
+  }
+
+  body .convenience-section-wrapper .mira-services .mira-services__container:nth-child(1) 
+  .mira-services__container--copy h3 {
+    color: #F58220;
+  }
+
+  body .convenience-section-wrapper .mira-services .mira-services__container:nth-child(2){
+    margin-top: 2.5rem;
+  }
+  
+  body .convenience-section-wrapper .mira-services .mira-services__container 
+  .mira-services__container--copy h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 2rem;
+  }
+
+  body .convenience-section-wrapper .mira-services .mira-services__container 
+  .mira-services__container--copy p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #7D7D7D;
+  }
+
+  body .environment-wrapper{
+    /* background-image: url("images/environment-background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10rem;
+    padding-left: 6rem; */
+  }
+
+  body .environment-wrapper .environment-wrapper__view-more p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+  }
+
+  body .environment-wrapper .environment-wrapper__view-more button {
+    padding: 8px 16px 12px 16px;
+    gap: 4px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+  }
+
+  body .environment-wrapper .environment-wrapper__view-more {
+    max-width: 50rem;
+    margin-top: 13rem;
+    border-top: 1px solid #BEBEBE;
+  }
+
+  body .environment-wrapper .environment-wrapper__view-more .white-line {
+    margin-top: -1.8rem;
+  }
+
+  body .environment-wrapper .environment-wrapper__view-more button{
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #FFFFFF;    
+    margin-top: 1.5rem;
+  }
+
+  body .environment-wrapper .environment-wrapper__header {
+    max-width: 50rem;
+  }
+
+  body .environment-wrapper h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 5rem;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #FFFFFF;    
+  }
+
+  body .environment-first-slide {
+    /* background-image: url("images/environment-background.svg"); */
+    background-image: url("https://res.cloudinary.com/peterdbrainy/image/upload/v1734285899/environment.png");
+  }
+
+  body .environment-second-slide {
+    background-image: url("images/environment-background.svg");
+
+  }
+
+  body .environment-third-slide {
+    background-image: url("images/environment-background.svg");
+
+  }
+
+  /* Only Section style */
+  body .only-section-wrapper {
+    background: #242424;
+    padding-left: 6rem;
+    padding-top: 10rem;
+  }
+  
+  .only-section-wrapper header .only-text{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #ffffff;
+    gap: 1rem;
+  }
+
+  .only-section-wrapper header .only-text {
+     font-size: 2.5rem;
+     font-weight: 700;
+     line-height: 4rem;
+     letter-spacing: -0.014em;
+     text-align: left;
+  }
+
+
+/* RESPONSIVE STYLE */
+/* Mid to large screens */
+@media (min-width: 400px) {
+  /* Navbar styles */
+  body .top-section-wrapper nav {
+    padding-left: 6rem;
+  }
+
+  body .top-section-wrapper nav .navbar-links-wrapper ul li {
+    margin-left: 1rem !important;
+  }
+
+  body .top-section-wrapper nav .navbar-links-wrapper ul .globe {
+    margin-left: 5rem !important;
+    margin-top: 0.4rem;
+  }
+
+  body .top-section-wrapper nav .navbar-links-wrapper ul .globe a img {
+    width: 46px;
+    height: 24px;
+  }
+
+  /* Hero Section */
+  body .top-section-wrapper .hero-section-wrapper {
+    display: flex;
+    padding-left: 6rem;
+    margin-top: 10rem;
+  }
+
+  body .top-section-wrapper .hero-section-wrapper .hero-section-wrapper__copy {
+    max-width: 30rem;
+  }
+
+  /* CONVENIENCE SECTION */
+  body .convenience-section-wrapper{
+    /* padding-left: 6rem; */
+  }
+
+}
